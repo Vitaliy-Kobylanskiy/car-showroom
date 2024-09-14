@@ -1,0 +1,69 @@
+.header {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 0 10px;
+
+    .container {
+        width: 1440px;
+        display: flex;
+
+        .logoBlock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-width: 270px;
+            border-radius: 10px;
+        }
+
+        .logoImg {
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+        }
+
+        .logoText {
+            font-size: 25px;
+            color: rgb(23, 23, 23);
+        }
+
+        .headerList {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        .headerLink {
+            font-size: 25px;
+            color: rgb(23, 23, 23);
+            margin-left: 20px;
+            padding: 5px;  
+        }
+
+        .headerLink:hover {
+            color: rgb(202, 196, 196);
+            border-radius: 10px;
+            filter: drop-shadow(3px 3px 10px rgb(225, 224, 224));
+            transition: .5s;
+        }
+        
+    }
+}
+
+// Адаптив
+
+@media (min-width: 320px) and (max-width: 680px) {
+    .header {
+        padding: 10px 10px 0 10px;
+
+        .container {
+            display: flex;
+            justify-content: center;
+
+            .headerList {
+                display: none;
+            }
+        }
+    }
+}

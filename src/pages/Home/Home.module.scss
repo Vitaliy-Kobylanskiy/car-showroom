@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.titleText {
+    color: rgb(23, 23, 23);
+}
+
+
+// Адаптив
+
+@media (min-width: 320px) and (max-width: 680px) {
+    .container {
+        display: block;
+    }
+
+    .carsList {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .titleText {
+        text-align: center;
+    }
+}

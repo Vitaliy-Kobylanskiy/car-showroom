@@ -1,0 +1,48 @@
+.vehicleInfoItem {
+    border-radius: 1px solid black;
+}
+
+.vehicleImg {
+    background-color: #efebeb;
+}
+
+.infoForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 30px; 
+    border-radius: 10px;
+    background-color: rgb(170, 170, 170);
+    padding: 20px 30px;
+}
+
+.infoInput {
+    margin-bottom: 15px;
+    background-color: aliceblue;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.infoFormComment {
+    margin-bottom: 15px;
+    background-color: rgb(170, 170, 170);
+}
+
+.infoButton {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+// Адаптив 
+
+@media (min-width: 320px) and (max-width: 680px) {
+    .infoForm {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+
+    .vehicleInfoContainer {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// Адаптив
+
+@media (min-width: 320px) and (max-width: 680px) {
+    .container {
+        display: block;
+
+        .vehicleInfoContainer {
+            display: block;
+        }
+    }
+}
+
+@media (min-width: 681px) and (max-width: 992px) {
+    .container {
+        display: block;
+
+        .vehicleInfoContainer {
+            margin: 0 auto;
+            max-width: 700px;
+        }
+    }
+}
+

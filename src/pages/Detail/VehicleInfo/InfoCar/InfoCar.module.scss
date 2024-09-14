@@ -1,0 +1,31 @@
+.containerVehicle {
+    max-width: 300px;
+}
+
+.vehicleDescription {
+    margin-bottom: 15px;
+}
+
+.vehicleRate {
+    margin-top: 15px;
+}
+
+.vehicleImg {
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+// Адаптив 
+
+@media (min-width: 320px) and (max-width: 680px) {
+    .containerVehicle {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 681px) and (max-width: 992px) {
+    .containerVehicle {
+        margin: 0 auto;
+    }
+}

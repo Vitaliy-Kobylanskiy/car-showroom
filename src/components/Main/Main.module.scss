@@ -1,0 +1,12 @@
+.main {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+
+    .container {
+        display: block;
+        flex-grow: 1;
+        max-width: 1000px;
+    }
+}

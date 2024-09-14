@@ -1,0 +1,21 @@
+.itemBlock {
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid rgb(23, 23, 23);
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        filter: drop-shadow(3px 3px 10px rgb(23, 23, 23));
+        transition: 0.7s;
+    }
+}
+
+.itemTitle {
+    font-size: 20px;
+    color: rgb(23, 23, 23);
+}
+
+.itemText {
+    color: rgb(23, 23, 23);
+}
