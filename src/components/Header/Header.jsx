@@ -8,7 +8,7 @@ export const Header = () => {
         <header className={cl.header}>
             <section className={cl.container}>
                 <div className={cl.logoWrapper}>
-                    <a href="/" className={cl.logoLink}>
+                    <Link to="/" className={cl.logoLink}>
                         <div className={cl.logoBlock}>
                             <img
                                 className={cl.logoImg}
@@ -17,7 +17,7 @@ export const Header = () => {
                             />
                             <p className={cl.logoText}>Car Showroom</p>
                         </div>
-                    </a>
+                    </Link>
                 </div>
                 <ul className={cl.headerList}>
                     <li className={cl.headerItem}>
